@@ -1,0 +1,103 @@
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px; /* provide some space between links */
+}
+
+ul li a {
+  color: #333;
+  font-size: 70px; /* increase link size */
+  text-decoration: none; /* remove underline from links */
+  transition: color 0.3s; /* transition for color change on hover */
+}
+
+ul li a:hover {
+  color: #6B72E1;
+}
+
+button {
+  background-color: #1da1f2;
+  color: white; /* button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0c84d2; /* darker blue color on hover */
+}
+
+body {
+  background-color: #81b29a;
+  font-family: 'Times New Roman', Times, serif, sans-serif; /* use a generic font as fallback */
+  text-align: center;
+}
+
+h1 {
+  color: #575F7D; /* replace with your desired color for "LAMBERT ANTHONY" */
+}
+
+h2 {
+  color: #7ECE90; /* replace with your desired color for "WEB DEV" */
+}
+
+div {
+  border: 1px solid black; /* 1px width, solid style, black color */
+  padding: 10px; /* add some space between border and inner content */
+  margin: 10px auto; /* add some space around div and center horizontally */
+  width: 80%; /* make div occupy 80% of the screen width */
+  border-radius: 35px; /* make corners round */
+  background-color: #fefae0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+
+  .profile-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  ul li a {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  .profile-image {
+    width: 60px;
+    height: 60px;
+  }
+
+}
